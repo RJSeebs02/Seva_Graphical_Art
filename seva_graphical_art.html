@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphical Art with SVG</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .svg_container {
+            width: 200px;
+        }
+        .svg {
+            border: solid 3px #b588fe;
+        }
+    </style>
+</head>
+<body>
+    <h1>SVG Graphical Art Combinations</h1>
+    
+    <!-- 1. Line and Circle -->
+    <div class="container">
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+                <line x1="20" y1="0" x2="20" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="20" cy="120" r="15" fill="#6cfaa6"/>
+                <line x1="20" y1="140" x2="20" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+                <line x1="50" y1="0" x2="50" y2="120" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="50" cy="160" r="15" fill="#6cfaa6"/>
+                <line x1="50" y1="180" x2="50" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+                <line x1="80" y1="0" x2="80" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="80" cy="120" r="15" fill="#6cfaa6"/>
+                <line x1="80" y1="140" x2="80" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+                <line x1="110" y1="0" x2="110" y2="120" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="110" cy="160" r="15" fill="#6cfaa6"/>
+                <line x1="110" y1="180" x2="110" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+                <line x1="140" y1="0" x2="140" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="140" cy="120" r="15" fill="#6cfaa6"/>
+                <line x1="140" y1="140" x2="140" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+                <line x1="170" y1="0" x2="170" y2="120" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="170" cy="160" r="15" fill="#6cfaa6"/>
+                <line x1="170" y1="180" x2="170" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+                <line x1="200" y1="0" x2="200" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="200" cy="120" r="15" fill="#6cfaa6"/>
+                <line x1="200" y1="140" x2="200" y2="300" stroke="#b588fe" stroke-width="5"/>
+
+            </svg>
+            <p>1. Circles and Lines</p>
+        </div>
+
+    <!-- 2. Circle and Rectangle -->
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+                <circle cx="0" cy="40" r="20" fill="#6cfaa6"/>
+                <circle cx="50" cy="40" r="20" fill="#6cfaa6"/>
+                <rect x="80" y="20" width="80" height="40" fill="#b588fe"/>
+                <circle cx="190" cy="40" r="20" fill="#6cfaa6"/>
+
+                <circle cx="0" cy="100" r="20" fill="#6cfaa6"/>
+                <rect x="30" y="80" width="80" height="40" fill="#b588fe"/>
+                <circle cx="140" cy="100" r="20" fill="#6cfaa6"/>
+                <circle cx="190" cy="100" r="20" fill="#6cfaa6"/>
+                
+                <rect x="0" y="140" width="60" height="40" fill="#b588fe"/>
+                <circle cx="90" cy="160" r="20" fill="#6cfaa6"/>
+                <circle cx="140" cy="160" r="20" fill="#6cfaa6"/>
+                <rect x="170" y="140" width="60" height="40" fill="#b588fe"/>
+
+                <rect x="0" y="190" width="200" height="40" fill="#b588fe"/>
+                <circle cx="20" cy="210" r="15" fill="#6cfaa6"/>
+                <circle cx="55" cy="210" r="15" fill="#6cfaa6"/>
+                <circle cx="90" cy="210" r="15" fill="#6cfaa6"/>
+                <circle cx="125" cy="210" r="15" fill="#6cfaa6"/>
+                <circle cx="160" cy="210" r="15" fill="#6cfaa6"/>
+                <circle cx="195" cy="210" r="15" fill="#6cfaa6"/>
+
+                <rect x="0" y="240" width="20" height="40" fill="#b588fe"/>
+                <circle cx="50" cy="260" r="20" fill="#6cfaa6"/>
+                <circle cx="100" cy="260" r="20" fill="#6cfaa6"/>
+                <rect x="130" y="240" width="80" height="40" fill="#b588fe"/>
+
+                <circle cx="0" cy="310" r="20" fill="#6cfaa6"/>
+                <circle cx="50" cy="310" r="20" fill="#6cfaa6"/>
+                <rect x="80" y="290" width="80" height="40" fill="#b588fe"/>
+                <circle cx="190" cy="310" r="20" fill="#6cfaa6"/>
+            </svg>
+            <p>2. Rectangle and Circle</p>
+        </div>
+
+    <!-- 3. Polyline and Circle -->
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+                <polyline points="-10,10 20,40 50,10 80,40 110,10 140,40 170,10 200,40 230,10" fill="none" stroke="#b588fe" stroke-width="10"/>
+                
+                <circle cx="50" cy="50" r="15" fill="#6cfaa6"/>
+                <circle cx="110" cy="50" r="15" fill="#6cfaa6"/>
+                <circle cx="170" cy="50" r="15" fill="#6cfaa6"/>
+
+                <polyline points="-10,80 20,110 50,80 80,110 110,80 140,110 170,80 200,110 230,80" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+                <circle cx="50" cy="120" r="15" fill="#6cfaa6"/>
+                <circle cx="110" cy="120" r="15" fill="#6cfaa6"/>
+                <circle cx="170" cy="120" r="15" fill="#6cfaa6"/>
+
+                <polyline points="-10,150 20,180 50,150 80,180 110,150 140,180 170,150 200,180 230,150" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+                <circle cx="50" cy="190" r="15" fill="#6cfaa6"/>
+                <circle cx="110" cy="190" r="15" fill="#6cfaa6"/>
+                <circle cx="170" cy="190" r="15" fill="#6cfaa6"/>
+
+                <polyline points="-10,220 20,250 50,220 80,250 110,220 140,250 170,220 200,250 230,220" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+                <circle cx="50" cy="260" r="15" fill="#6cfaa6"/>
+                <circle cx="110" cy="260" r="15" fill="#6cfaa6"/>
+                <circle cx="170" cy="260" r="15" fill="#6cfaa6"/>
+
+                <polyline points="-10,290 20,320 50,290 80,320 110,290 140,320 170,290 200,320 230,220" fill="none" stroke="#b588fe" stroke-width="10"/>
+            </svg>
+            <p>3. Polyline and Circle</p>
+        </div>
+
+    <!-- 4. Ellipse and Polyline -->
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+                <polyline points="-30,10 0,40 30,10 60,40 90,10 120,40 150,10 180,40 210,10" fill="none" stroke="#b588fe" stroke-width="10"/>
+                <polyline points="-30,25 0,55 30,25 60,55 90,25 120,55 150,25 180,55 210,25" fill="none" stroke="#6cfaa6" stroke-width="10"/>
+                <polyline points="-30,40 0,70 30,40 60,70 90,40 120,70 150,40 180,70 210,40" fill="none" stroke="#b588fe" stroke-width="10"/>
+                
+                <ellipse cx="30" cy="120" rx="60" ry="30" fill="#6cfaa6"/>
+                <ellipse cx="170" cy="120" rx="60" ry="30" fill="#6cfaa6"/>
+                
+                <ellipse cx="-40" cy="180" rx="60" ry="30" fill="#6cfaa6"/>
+                <ellipse cx="100" cy="180" rx="60" ry="30" fill="#6cfaa6"/>
+                <ellipse cx="240" cy="180" rx="60" ry="30" fill="#6cfaa6"/>
+
+                <polyline points="-30,230 0,260 30,230 60,260 90,230 120,260 150,230 180,260 210,230" fill="none" stroke="#b588fe" stroke-width="10"/>
+                <polyline points="-30,245 0,275 30,245 60,275 90,245 120,275 150,245 180,275 210,245" fill="none" stroke="#6cfaa6" stroke-width="10"/>
+                <polyline points="-30,260 0,290 30,260 60,290 90,260 120,290 150,260 180,290 210,260" fill="none" stroke="#b588fe" stroke-width="10"/>
+            </svg>
+            <p>4. Ellipse and Polyline</p>
+        </div>
+
+    <!-- 5. Circle, Line and Rectangle -->
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+                <rect x="20" y="30" width="160" height="80" fill="#b588fe"/>
+                <circle cx="50" cy="70" r="20" fill="#6cfaa6"/>
+                <circle cx="100" cy="70" r="20" fill="#6cfaa6"/>
+                <circle cx="150" cy="70" r="20" fill="#6cfaa6"/>
+
+                <line x1="60" y1="110" x2="60" y2="210" stroke="#b588fe" stroke-width="10"/>
+                <line x1="140" y1="110" x2="140" y2="210" stroke="#b588fe" stroke-width="10"/>
+
+                <rect x="20" y="200" width="160" height="80" fill="#b588fe"/>
+                <circle cx="50" cy="240" r="20" fill="#6cfaa6"/>
+                <circle cx="100" cy="240" r="20" fill="#6cfaa6"/>
+                <circle cx="150" cy="240" r="20" fill="#6cfaa6"/>
+                
+            </svg>
+            <p>5. Line, Rectangle and Circle</p>
+        </div>
+
+    <!-- 6. Polyline and Polygon -->
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+
+                <polygon points="50,20 150,20 180,100 100,180 20,100" fill="#6cfaa6"/>
+
+                <polygon points="50,190 150,190 180,270 100,350 20,270" fill="#6cfaa6"/>
+                
+                <polyline points="10,-10 40,20 10,50 40,80 10,110 40,140 10,170 40,200 10,230 40,260 10,290 40,310" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+                <polyline points="80,-10 110,20 80,50 110,80 80,110 110,140 80,170 110,200 80,230 110,260 80,290 110,310" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+                <polyline points="150,-10 180,20 150,50 180,80 150,110 180,140 150,170 180,200 150,230 180,260 150,290 180,310" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+                
+            </svg>
+            <p>6. Polyline and Polygon</p>
+        </div>
+
+    <!-- 7. Circle, Rectangle, Polyline, Polygon, and Ellipse -->
+        <div class="svg_container">
+            <svg width="200" height="300" class="svg">
+
+                <polygon points="12.5,5 37.5,5 45,25 25,45 5,25" fill="#6cfaa6"/>
+                <polygon points="62.5,5 87.5,5 95,25 75,45 55,25" fill="#6cfaa6"/>
+                <polygon points="112.5,5 137.5,5 145,25 125,45 105,25" fill="#6cfaa6"/>
+                <polygon points="162.5,5 187.5,5 195,25 175,45 155,25" fill="#6cfaa6"/>
+
+
+                <line x1="20" y1="0" x2="20" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="20" cy="120" r="15" fill="#6cfaa6"/>
+                <rect x="10" y="140" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="20" cy="165" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <line x1="50" y1="0" x2="50" y2="120" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="50" cy="140" r="15" fill="#6cfaa6"/>
+                <rect x="40" y="160" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="50" cy="185" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <line x1="80" y1="0" x2="80" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="80" cy="120" r="15" fill="#6cfaa6"/>
+                <rect x="70" y="140" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="80" cy="165" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <line x1="110" y1="0" x2="110" y2="120" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="110" cy="140" r="15" fill="#6cfaa6"/>
+                <rect x="100" y="160" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="110" cy="185" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <line x1="140" y1="0" x2="140" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="140" cy="120" r="15" fill="#6cfaa6"/>
+                <rect x="130" y="140" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="140" cy="165" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <line x1="170" y1="0" x2="170" y2="120" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="170" cy="140" r="15" fill="#6cfaa6"/>
+                <rect x="160" y="160" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="170" cy="185" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <line x1="200" y1="0" x2="200" y2="100" stroke="#b588fe" stroke-width="5"/>
+                <circle cx="200" cy="120" r="15" fill="#6cfaa6"/>
+                <rect x="190" y="140" width="20" height="50" fill="#b588fe"/>
+                <ellipse cx="200" cy="165" rx="8" ry="20" fill="#6cfaa6"/>
+
+                <polyline points="-30,240 0,270 30,240 60,270 90,240 120,270 150,240 180,270 210,240" fill="none" stroke="#b588fe" stroke-width="10"/>
+                <polyline points="-30,255 0,285 30,255 60,285 90,255 120,285 150,255 180,285 210,255" fill="none" stroke="#6cfaa6" stroke-width="10"/>
+                <polyline points="-30,270 0,300 30,270 60,300 90,270 120,300 150,270 180,300 210,270" fill="none" stroke="#b588fe" stroke-width="10"/>
+
+            </svg>
+            <p>7. Line, Circle, Rectangle, Polyline, Polygon and Ellipse</p>
+        </div>
+    </div>
+</body>
+</html>
